@@ -1,4 +1,3 @@
-// @flow strict
 import { userData } from "@/data/user-data";
 import Image from "next/image";
 import GlowCard from "../helper/glow-card";
@@ -40,7 +39,7 @@ function Rank() {
             className="rounded-lg"
           />
           <Image
-            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/locality.svg`}
+            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/country.svg`}
             width={1080}
             height={520}
             alt="github locality"

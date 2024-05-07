@@ -1,4 +1,3 @@
-// @flow strict
 import Link from 'next/link';
 import { CgGitFork } from "react-icons/cg";
 import { IoStar } from "react-icons/io5";
@@ -17,7 +16,7 @@ function Footer() {
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio"
+              href="https://github.com/nazmulhasannasim333/github-portfolio"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <IoStar />
@@ -25,7 +24,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio/fork"
+              href="https://github.com/nazmulhasannasim333/github-portfolio/fork"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <CgGitFork />

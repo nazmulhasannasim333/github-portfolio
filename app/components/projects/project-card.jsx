@@ -4,7 +4,7 @@ import { FaRegStar } from "react-icons/fa";
 import { FaCodeFork } from "react-icons/fa6";
 import { IoLinkSharp } from "react-icons/io5";
 
-// @flow strict
+
 function ProjectCard({ project }) {
 
   return (

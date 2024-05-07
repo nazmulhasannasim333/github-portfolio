@@ -35,6 +35,7 @@ module.exports = {
         "primary-text": "#FFFFFF",
         "primary-icon": "#2DDE98",
         "primary-bg": "#050F2C",
+        "statistic-bg": "#141321"
       },
     },
   },

@@ -1,4 +1,4 @@
-// @flow strict
+
 
 
 function SectionTitle({ title }) {

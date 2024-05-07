@@ -1,5 +1,3 @@
-// @flow strict
-
 import GitHubCalendar from "react-github-calendar";
 import SectionTitle from "../helper/section-title";
 

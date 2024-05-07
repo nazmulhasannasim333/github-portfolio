@@ -1,16 +1,12 @@
-// @flow strict
-
 import { userData } from "@/data/user-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa6";
 import { MdDownload } from "react-icons/md";
-import { SiLeetcode } from "react-icons/si";
 
 function HeroSection({ profile }) {
-  console.log(profile);
-
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:gap-12 gap-y-8">
@@ -30,7 +26,7 @@ function HeroSection({ profile }) {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-400">const</span>
-                <span className="mr-2 text-violet-400">coder</span>
+                <span className="mr-2 text-violet-400">programmer</span>
                 <span className="mr-2 text-pink-400">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
@@ -83,11 +79,6 @@ function HeroSection({ profile }) {
                 }
                 <span className="text-gray-400">{"'],"}</span>
               </div>
-              {/* <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hireable:</span>
-                <span className="text-orange-400">{profile?.hireable}</span>
-                <span className="text-gray-400">,</span>
-              </div> */}
               <div><span className="text-gray-400">{`};`}</span></div>
             </code>
           </div>
@@ -131,11 +122,11 @@ function HeroSection({ profile }) {
               <FaFacebook size={24} />
             </Link>
             <Link
-              href={userData.leetcode}
+              href={userData.stackOverflow}
               target='_blank'
               className="transition-all text-teal-500 hover:scale-125 duration-300"
             >
-              <SiLeetcode size={24} />
+              <FaStackOverflow size={24} />
             </Link>
             <Link
               href={userData.twitter}
