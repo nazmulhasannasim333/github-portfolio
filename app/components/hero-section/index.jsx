@@ -10,7 +10,7 @@ function HeroSection({ profile }) {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:gap-12 gap-y-8">
-      <div className="h-full from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+      <div className="order-2 md:order-1 h-full from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -84,8 +84,7 @@ function HeroSection({ profile }) {
           </div>
         </div>
 
-
-        <div className="flex flex-col items-start justify-center rounded-lg p-3 lg:py-5 lg:px-12 bg-primary-bg h-full">
+        <div className="order-1 md:order-2 flex flex-col items-start justify-center rounded-lg p-3 lg:py-5 lg:px-12 bg-primary-bg h-full">
           <div className="flex w-full justify-center">
             <Image
               src={profile.avatar_url}

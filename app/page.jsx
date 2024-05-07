@@ -33,7 +33,6 @@ export default async function Home() {
   const profile = await getGitProfile();
   const projects = await getGitProjects();
 
-  // console.log(profile);
 
   return (
     <>
