@@ -11,7 +11,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-primary-icon text-3xl font-bold">
-            @{userData.githubUser}
+            @{userData?.githubUser}
           </Link>
         </div>
 
