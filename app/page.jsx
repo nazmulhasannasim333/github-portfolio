@@ -5,11 +5,11 @@ import GitLanguage from "./components/language";
 import Projects from "./components/projects";
 import Rank from "./components/rank";
 import GitStats from "./components/stats";
+import Skills from "./components/skills";
+import MySkills from "./components/skills";
 
 async function getGitProfile() {
-  const res = await fetch(`https://api.github.com/users/${userData.githubUser}`, {
-    cache: "no-store"
-  })
+  const res = await fetch(`https://api.github.com/users/${userData.githubUser}`)
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
@@ -37,6 +37,7 @@ export default async function Home() {
   return (
     <>
       <HeroSection profile={profile} />
+      <MySkills />
       <GitStats />
       <Projects
         projects={projects.items}
@@ -53,7 +54,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   const profile = await getGitProfile();
 
   return {
-    title: `GitHub Profile of ${profile.name}`,
+    title: `Portfolio ${profile.name}`,
     description: profile.description,
   };
 };

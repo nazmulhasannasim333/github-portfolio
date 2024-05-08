@@ -8,6 +8,6 @@ export const userData = {
   twitter: 'https://twitter.com/NHnasim333',
   stackOverflow: 'https://stackoverflow.com/users/20815968/md-nasim-hosen',
   resume: "https://drive.google.com/file/d/1PrtuD4MyjpQlwtVHVqth_AOt77rzCmQv/view?usp=drive_link",
-  skills: ['React', 'NextJS', 'Redux', 'Express', 'MongoDB', 'Postgres', 'Mongoose', 'Prisma'],
+  skills: ['ReactJs', 'NextJs', 'Redux', 'ExpressJs', 'MongoDB', 'Postgres', 'Mongoose', 'Prisma'],
   timezone: '+6'
 };
