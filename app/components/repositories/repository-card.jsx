@@ -5,7 +5,7 @@ import { FaCodeFork } from "react-icons/fa6";
 import { IoLinkSharp } from "react-icons/io5";
 
 
-function ProjectCard({ project }) {
+function RepositoryCard({ project }) {
 
   return (
     <Link href={project.html_url} target="_blank">
@@ -45,4 +45,4 @@ function ProjectCard({ project }) {
   );
 };
 
-export default ProjectCard;
+export default RepositoryCard;

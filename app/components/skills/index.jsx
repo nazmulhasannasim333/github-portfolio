@@ -25,7 +25,7 @@ const MySkills = () => {
         {showAll
           ? skills.map((skill, i) => (
               <GlowCard key={i} identifier={`my-skill-${i}`}>
-                <div className="sm:cursor-pointer relative group w-full h-[170px] flex items-center gap-5 px-3 py-3 bg-primary-bg">
+                <div className="sm:cursor-pointer group w-full h-[170px] flex items-center gap-5 px-3 py-3 bg-primary-bg">
                   <div className="w-1/5">
                     <Image
                       src={skill?.logo}
@@ -36,15 +36,15 @@ const MySkills = () => {
                     />
                   </div>
                   <div className="w-4/5">
-                    <h6 className="text-2xl">{skill.name}</h6>
-                    <p className="italic">{skill.para}</p>
+                    <h6 className="text-2xl text-primary-title">{skill.name}</h6>
+                    <p className="text-[15px]">{skill.para}</p>
                   </div>
                 </div>
               </GlowCard>
             ))
           : skills.slice(0, 9).map((skill, i) => (
               <GlowCard key={i} identifier={`my-skill-${i}`}>
-                <div className="sm:cursor-pointer relative group w-full h-[170px] flex items-center gap-5 px-3 py-3 bg-primary-bg">
+                <div className="sm:cursor-pointer group w-full h-[170px] flex items-center gap-5 px-3 py-3 bg-primary-bg">
                   <div className="w-1/5">
                     <Image
                       src={skill?.logo}
@@ -55,8 +55,8 @@ const MySkills = () => {
                     />
                   </div>
                   <div className="w-4/5">
-                    <h6 className="text-2xl">{skill.name}</h6>
-                    <p className="italic">{skill.para}</p>
+                    <h6 className="text-2xl text-primary-title">{skill.name}</h6>
+                    <p className="text-[15px]">{skill.para}</p>
                   </div>
                 </div>
               </GlowCard>

@@ -11,7 +11,9 @@
     --foreground-rgb: 255, 255, 255;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;

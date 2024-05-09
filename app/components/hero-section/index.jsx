@@ -1,3 +1,4 @@
+"use client"
 import { userData } from "@/data/user-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,8 +6,14 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa6";
 import { MdDownload } from "react-icons/md";
+import { useTypewriter } from "react-simple-typewriter";
 
 function HeroSection({ profile }) {
+  const [text] = useTypewriter({
+    words: [`${profile?.bio}`],
+    loop: 0,
+  });
+
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:gap-12 gap-y-8">
@@ -95,7 +102,7 @@ function HeroSection({ profile }) {
             />
           </div>
           <p className="text-gray-300 text-sm lg:text-base my-4 lg:my-6 text-center">
-            {profile.bio}
+            {text}
           </p>
 
           <div className="w-full flex justify-center items-center gap-5">
