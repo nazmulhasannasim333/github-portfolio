@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex justify-between items-center gap-4">
           <div className="w-1/2">
             <h3
-            className="lg:text-5xl text-2xl font-semibold capitalize bg-gradient-to-r from-primary-title to-primary-icon inline-block text-transparent bg-clip-text">
+            className="lg:text-5xl text-3xl font-semibold capitalize bg-gradient-to-r from-primary-title to-primary-icon inline-block text-transparent bg-clip-text">
               {project?.name}
             </h3>
           </div>

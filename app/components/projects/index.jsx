@@ -16,7 +16,7 @@ const Projects = () => {
   
 
   return (
-    <div id="repositories" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="projects" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <SectionTitle title="Latest Projects" />
       <div className="grid py-12 grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
         { showAll ?

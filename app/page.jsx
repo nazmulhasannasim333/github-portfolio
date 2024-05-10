@@ -7,6 +7,7 @@ import GitStats from "./components/stats";
 import MySkills from "./components/skills";
 import Repositories from "./components/repositories";
 import Projects from "./components/projects";
+import Experiences from "./components/experiences";
 
 async function getGitProfile() {
   const res = await fetch(
@@ -38,6 +39,7 @@ export default async function Home() {
   return (
     <>
       <HeroSection profile={profile} />
+      <Experiences />
       <MySkills />
       <Projects projects={projects.items} profile={profile} />
       <GitStats />
