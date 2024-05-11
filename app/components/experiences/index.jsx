@@ -7,8 +7,8 @@ const Experiences = () => {
       id="experience"
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b] experience"
     >
-      <SectionTitle title="Education & Experience" />
-      <div className="lg:grid grid-cols-2 gap-8 my-12">
+      <SectionTitle title="Experience" />
+      <div className="lg:grid grid-cols-2 gap-20 my-12">
         <div>
           <h3 className="text-3xl text-center py-4 font-semibold uppercase bg-gradient-to-r from-primary-icon to-primary-title inline-block text-transparent bg-clip-text">
             Education

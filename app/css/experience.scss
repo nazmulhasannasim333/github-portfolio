@@ -1,6 +1,6 @@
 .experience {
   .content {
-    padding: 0px 30px;
+    padding: 0px 0px 0px 20px;
     border-left: 2px solid #3e3e42;
     .box {
       position: relative;
@@ -10,6 +10,9 @@
       cursor: pointer;
       transition: all 0.4s;
       margin-bottom: 20px;
+      @media (max-width: 767px) {
+        padding: 10px;
+      }
       h4 {
         color: #2dde98;
       }
@@ -33,7 +36,7 @@
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        right: calc(100% + 25px);
+        right: calc(100% + 14px);
         top: 0;
         background-color: #2dde98;
         border: 2px solid #0d1224;
