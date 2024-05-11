@@ -20,7 +20,7 @@ const Experiences = () => {
               <h4>2021 - Present</h4>
               <h3>Shahid Bulbul Government College, Pabna</h3>
               <p>
-              At Shahid Bulbul Government College, Pabna, I am pursuing a Bachelor's degree in Political Science, immersing myself in a comprehensive academic program that nurtures critical thinking and civic engagement. This institution equips me with the knowledge and skills to contribute meaningfully to society.
+              At Shahid Bulbul Government College, Pabna, I am pursuing a Bachelors degree in Political Science, immersing myself in a comprehensive academic program that nurtures critical thinking and civic engagement. This institution equips me with the knowledge and skills to contribute meaningfully to society.
               </p>
             </div>
             <div className="box">
@@ -51,7 +51,7 @@ const Experiences = () => {
               <h4>2023 - Present</h4>
               <h3>Full Stack Developer(Full-time)</h3>
               <p>
-              As a full stack developer at ultraDevs since 2023, I've contributed to diverse projects, leveraging my skills in both frontend and backend development. Collaborating with talented teams, I've tackled challenges, implemented innovative solutions, and continuously honed my expertise to deliver high-quality, scalable software solutions.
+              As a full stack developer at ultraDevs since 2023, I have contributed to diverse projects, leveraging my skills in both frontend and backend development. Collaborating with talented teams, I have tackled challenges, implemented innovative solutions, and continuously honed my expertise to deliver high-quality, scalable software solutions.
               </p>
             </div>
             <div className="box">
@@ -59,7 +59,7 @@ const Experiences = () => {
               <h4>2022 - 2023</h4>
               <h3>Next Level Web Development</h3>
               <p>
-              I completed the 'Next Level Web Development Course' from Programming Hero, guided by interactive lessons and real world projects, solidifying my expertise in web development.
+              I completed the Next Level Web Development Course from Programming Hero, guided by interactive lessons and real world projects, solidifying my expertise in web development.
               </p>
             </div>
             <div className="box">
