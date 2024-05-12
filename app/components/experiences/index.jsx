@@ -43,7 +43,7 @@ const Experiences = () => {
         </div>
         <div>
           <h3 className="text-3xl text-center py-4 font-semibold uppercase bg-gradient-to-r from-primary-icon to-primary-title inline-block text-transparent bg-clip-text">
-          Learning & Experience
+          Experience
           </h3>
           <div className="content">
             <div className="box">
@@ -64,7 +64,7 @@ const Experiences = () => {
             </div>
             <div className="box">
               <h2>Self Learning</h2>
-              <h4>2020 - 2022</h4>
+              <h4>2020 - Present</h4>
               <h3>Youtube and W3Schools</h3>
               <p>
               I acquired programming proficiency through self-study, leveraging instructional resources from YouTube and W3Schools to expand my skill set and pursue my passion for coding
