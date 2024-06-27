@@ -48,7 +48,7 @@ const Experiences = () => {
           <div className="content">
             <div className="box">
               <h2><Link href="https://ultradevs.com/" target="_blank" >ultraDevs</Link> - Pabna, Bangladesh</h2>
-              <h4>2023 - Present</h4>
+              <h4>2023 - June 2024</h4>
               <h3>Full Stack Developer(Full-time)</h3>
               <p>
               As a full stack developer at ultraDevs since 2023, I have contributed to diverse projects, leveraging my skills in both frontend and backend development. Collaborating with talented teams, I have tackled challenges, implemented innovative solutions, and continuously honed my expertise to deliver high-quality, scalable software solutions.

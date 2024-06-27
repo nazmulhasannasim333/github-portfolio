@@ -5,7 +5,7 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   return (
      <Link href={project?.liveLink} target="_blank">
-      <div className="lg:p-8 p-3 lg:h-60 h-28 flex flex-col justify-between group bg-primary-bg hover:bg-[#101835] duration-500">
+      <div className="lg:p-8 p-3 lg:h-60 h-28 flex flex-col justify-between group bg-primary-bg hover:bg-[#101835] duration-500 overflow-hidden">
         <div className="flex justify-between items-center gap-4">
           <div className="w-1/2">
             <h3
@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
               height={500}
               width={350}
               alt="project-1"
-              className="w-full h-full object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
+              className="w-full h-full object-cover ease-in-out duration-500 group-hover:animate-flip"
             />
           </div>
         </div>

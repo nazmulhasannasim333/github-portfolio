@@ -7,6 +7,7 @@ import houserHunter from "@/app/assets/projects/house-hunter.png";
 import dollDroid from "@/app/assets/projects/doll-droid.png";
 import chefLegend from "@/app/assets/projects/chef-legend.png";
 import elegantFashion from "@/app/assets/projects/elegant-fashion.png";
+import zoxxo from "@/app/assets/projects/zoxxo.png";
 
 
 export const projects = [
@@ -19,6 +20,11 @@ export const projects = [
     img: flixFlm,
     name: "Flix Film",
     liveLink: "https://movie-app-client-pi.vercel.app",
+  },
+  {
+    img: zoxxo,
+    name: "Zoxxo",
+    liveLink: "https://developer.zoxxo.io",
   },
   {
     img: eyeGlass,
