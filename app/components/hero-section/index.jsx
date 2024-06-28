@@ -44,6 +44,12 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">email:</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-green-400">{userData.email}</span>
+                <span className="text-gray-400">{`',`}</span>
+              </div>
+              <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">company:</span>
                 <span className="text-gray-400">{`'`}</span>
                 <span className="text-green-400">{profile.company}</span>

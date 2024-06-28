@@ -36,6 +36,7 @@ export default async function Home() {
   const profile = await getGitProfile();
   const projects = await getGitProjects();
 
+
   return (
     <>
       <HeroSection profile={profile} />

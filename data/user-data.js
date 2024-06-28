@@ -2,6 +2,7 @@ export const userData = {
   // navbarName: "Nasim",
   githubUser: 'nazmulhasannasim333',
   devUsername: "nazmulhasannasim333",
+  email: "mdnasimhosen333@gmail.com",
   github: 'https://github.com/nazmulhasannasim333',
   linkedIn: 'https://www.linkedin.com/in/nazmulhasannasim333',
   facebook: 'https://www.facebook.com/nazmulhasannasim333',
