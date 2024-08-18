@@ -47,19 +47,19 @@ const Experiences = () => {
           </h3>
           <div className="content">
             <div className="box">
-              <h2><Link href="https://ultradevs.com/" target="_blank" >ultraDevs</Link> - Pabna, Bangladesh</h2>
-              <h4>2023 - 2024</h4>
-              <h3>Full Stack Developer(Full-time)</h3>
+              <h2><Link href="https://www.nextlevelmedia.com" target="_blank" >Next Level Media</Link> - Rajshahi, Bangladesh</h2>
+              <h4>2024 - Present</h4>
+              <h3>Full Stack Engineer(Full-time)</h3>
               <p>
-              As a full stack developer at ultraDevs since 2023, I have contributed to diverse projects, leveraging my skills in both frontend and backend development. Collaborating with talented teams, I have tackled challenges, implemented innovative solutions, and continuously honed my expertise to deliver high-quality, scalable software solutions.
+              At Next Level Media, I work as a Full Stack Engineer, specializing in the MERN stack. I design and build scalable web applications, ensuring seamless integration between front-end and back-end systems. My role also involves collaborating with teams to deliver robust, user-centric solutions.
               </p>
             </div>
             <div className="box">
-              <h2>Programming Hero</h2>
-              <h4>2022 - 2023</h4>
-              <h3>Next Level Web Development</h3>
+              <h2><Link href="https://ultradevs.com" target="_blank" >ultraDevs</Link> - Pabna, Bangladesh</h2>
+              <h4>2023 - 2024</h4>
+              <h3>Full Stack Developer(Full-time)</h3>
               <p>
-              I completed the Next Level Web Development Course from Programming Hero, guided by interactive lessons and real world projects, solidifying my expertise in web development.
+              As a full stack developer at ultraDevs since 2023, I have contributed to diverse projects, leveraging my skills in both frontend and backend development. Collaborating with talented teams.
               </p>
             </div>
             <div className="box">

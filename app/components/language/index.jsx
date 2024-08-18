@@ -40,6 +40,7 @@ function GitLanguage() {
               height={560}
               alt="github top-langs"
               className="rounded-lg md:h-52 lg:h-64 w-full bg-primary-bg"
+              unoptimized
             />
           </GlowCard>
         </div>
